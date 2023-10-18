@@ -11,4 +11,5 @@ do
   unzip -d $zipFile -d $HOME/.local/share/fonts/$fontDirName
 done
 
-fc-cache -fv && sudo fc-cache -fv
+fc-cache -fv
+sudo fc-cache -fv
